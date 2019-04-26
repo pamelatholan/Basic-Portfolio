@@ -7,6 +7,10 @@
   top: 0;
   left: 0;
   background-color: white;
+  color: #777777;
+  font-weight: bold;
+  border-bottom: #cccccc;
+  border-bottom-style: solid;
 }
 
 ul {
@@ -35,7 +39,7 @@ ul {
   display: inline-block;
   font-size: 15px;
   padding: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container1 {
@@ -50,6 +54,8 @@ ul {
 h2 {
   color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: #cccccc;
+  border-bottom-style: solid;
  }
 
 .float-img {
@@ -64,7 +70,7 @@ h2 {
   padding: 10px;
   bottom: 0;
   left: 0px;
-  background: #777777;
+  background: #666666;
   color: white;
   text-align: center;
   border-top: 8px solid #4aaaa5;
@@ -78,11 +84,12 @@ body {
 
 /* Contact */
 
-input[type=text] {
+input[type=text], textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+  resize: vertical;
 }
 
 input[type=submit] {
@@ -97,4 +104,6 @@ input[type=submit] {
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #4aaaa5;
+  border-bottom: #cccccc;
+  border-bottom-style: solid;
 }
