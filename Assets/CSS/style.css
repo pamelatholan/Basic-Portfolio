@@ -1,4 +1,4 @@
-/* BIO */
+/* About Me */
 
 .fixed-header {
   width: 100%;
@@ -16,16 +16,26 @@ ul {
   overflow: hidden;
 }
 
-li {
-  float: right;
-  margin: 5px;
-  padding: 5px;
-  border-right: 1px solid #777777;
-  font-family: Arial, Helvetica, sans-serif;
+.name {
+  float: left;
+  background-color: #4aaaa5;
+  color: white;
+  font-weight: bold;
 }
 
-li:first-child {
-  border-right: none;
+.nav {
+  background-color: white;
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .container1 {
@@ -34,6 +44,18 @@ li:first-child {
   padding: 10px 10px 10px 10px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  }
+
+h2 {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+.float-img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .fixed-footer{
@@ -54,4 +76,25 @@ body {
   background-image: url(file:///C:/Users/pamel/Basic-Portfolio/Assets/images/symphony.png)
 }
 
+/* Contact */
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+}
